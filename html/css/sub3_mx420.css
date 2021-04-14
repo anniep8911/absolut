@@ -1,0 +1,69 @@
+div.cntWrap .content header h2{
+    font-size: 25px;
+}
+div.cntWrap .content header h2 br{
+    display: none;
+}
+div.cntWrap .content header p{
+    margin-top: 20px;
+    font-size: 15px;
+    width: 70%;
+    margin: 10px auto 0 auto;
+}
+div.cntWrap .content section article .texts h4{
+    font-size: 16px;
+}
+div.cntWrap .content section article .texts p{
+    height: 80px;
+    font-size: 12px;
+}
+div.cnt01 section{
+    margin-top: 20px;
+}
+div.cnt01 section article{
+    display: block;
+}
+div.cnt01 section article .image{
+    width: 100%;
+    height: 280px;
+}
+div.cnt01 section article .texts{
+    width: 90%;
+    margin-top: 20px;
+}
+div.cnt01 section article .texts p{
+    height: 100px;
+    overflow: hidden;
+}
+div.bnrWrap{
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+div.bnrWrap .banner p{
+    margin-top: 0;
+    height: 80px;
+    overflow: hidden;
+}
+div.cnt02 section article{
+    height: 150px;
+}
+div.cnt02 section article .texts{
+    margin-top: 18px;   
+}
+div.cntWrap .cnt02 section article .texts p{
+    height: 40px;
+}
+div.ftrWrap{
+    margin-top: 0;
+}
+
+div.cnt03 section{
+    margin-top: 20px;
+}
+div.bg03 .cnt03 section article{
+    height: 150px;
+}
+div.bg03 .cnt03 section article .texts{
+    height: 120px;
+}

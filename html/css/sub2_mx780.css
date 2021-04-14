@@ -1,0 +1,13 @@
+div.slide{
+    background-color: rgba(153,102,102,0.8);
+}
+div.slide ul{
+    color: #fff;
+}
+
+div.cnt02 section{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    grid-row-gap: 20px;
+}

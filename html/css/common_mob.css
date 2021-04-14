@@ -1,0 +1,98 @@
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+div.hdrWrap header{
+    height: 120px;
+}
+div.hdrWrap header ul li{
+    display: none;
+}
+div.hdrWrap header ul li:last-of-type{
+    display: block;
+    font-size: 36px;
+    line-height: 80px;
+    margin-left: auto;
+}
+
+/*헤더 사이드바*/
+div.bars{
+  /*  width: 100vw;
+    height: 100vh;*/
+    position: absolute;
+    top: 0; left: 0;
+    overflow: hidden;
+}
+#bars{
+    display: none;
+}
+div.slide{
+    width: 0%;
+    height: 100vh;
+    background-color: rgba(255, 235, 213, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999999;
+    transition: all 0.5s;
+}
+div.slide ul{
+    right: -1000px;
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+    color: #111;
+    opacity: 0;
+    width: 0;
+}
+div.slide ul li{
+    font-size: 25px;
+    line-height: 80px;
+    font-weight: 500;
+}
+div.slide ul li:first-of-type{
+    margin-top: 80px;
+}
+div.slide ul li:last-of-type{
+    position: absolute;
+    top: 20px; right: 10%;
+    font-size: 40px;
+}
+
+/*사이드바 액션*/
+#bars:checked+.slide{
+    width: 50%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+#bars:checked+.slide ul{
+    opacity: 1;
+    width: 100%;
+    display:block;
+    right: 0px;
+}
+
+
+
+div.mnWrap{
+    height: 500px;
+}
+
+div.mnWrap main .texts{
+    display: none;
+}
+
+div.cntWrap .content{
+    padding: 40px 0 0 0;
+}
+
+div.ftrWrap{
+    margin-top: 40px;
+}
+
+div.bnrWrap{
+    margin-top: 40px;
+}

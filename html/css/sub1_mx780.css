@@ -1,0 +1,14 @@
+div.slide{
+    background-color: rgba(204,102,102,0.8);
+}
+div.slide ul{
+    color: #fff;
+}
+div.cntWrap .content{
+    padding: 0;
+}
+
+div.cnt01 header .btnGroup{
+    overflow: hidden;
+    height: 80px;
+}

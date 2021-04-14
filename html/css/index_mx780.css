@@ -1,0 +1,33 @@
+div.cntWrap .cnt01 ul{
+    display: none;
+}
+
+div.cnt01 section .artGroup article{
+    margin-left: 5px;
+}
+
+div.bnrWrap .banner .inputs input{
+    width: 50%;
+}
+div.bnr02 .banner .inputs input:nth-of-type(1), input:nth-of-type(2){
+    display: none;
+}
+
+div.cntWrap .cnt01 ul li{
+    display: none;
+}
+div.cntWrap .cnt03{
+    display: block;
+}
+div.cntWrap .content.cnt03 header{
+    width: 100%;
+    text-align: center;
+}
+div.cntWrap .content.cnt03 header p{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+div.cntWrap .content.cnt03 section{
+    margin-top: 40px;
+}
