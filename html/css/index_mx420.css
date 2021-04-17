@@ -99,6 +99,9 @@ div.cnt02 section article .texts .btn{
 div.cnt02 .btn{
     display: none;
 }
+div.cnt03 section .sectWrap{
+    overflow: visible;
+}
 
 div.cnt03 section .sectWrap .artGroup{
     width: calc((150px + 10px) * 7);

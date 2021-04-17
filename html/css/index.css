@@ -118,7 +118,6 @@ div.cntWrap .cnt01 section .artGroup{
     width: 200%;
     display: flex;
     justify-content: space-between;
-    transition: all 0.5s;
 }
 div.cntWrap .cnt01 section .artGroup article{
     width: calc(100% / 3 - 20px);
@@ -144,7 +143,7 @@ div.cntWrap .cnt01 section .artGroup article .imgBottle{
 .cnt01 .imgBottle.i3{background-image: url(../image/bottle_strawberryjuice.png);}
 .cnt01 .imgBottle.i4{background-image: url(../image/bottle_elyx.png);}
 .cnt01 .imgBottle.i5{background-image: url(../image/bottle_extrakt.png);}
-.cnt01 .imgBottle.i6{background-image: url(../image/bottle_grapefruit.png);}
+.cnt01 .imgBottle.i6{background-image: url(../image/bottle_grapefruits.png);}
 div.cntWrap .cnt01 section .artGroup article .image{
     width: 300px;
     height: 440px;
@@ -234,6 +233,7 @@ div.cnt02 section{
     flex-wrap: wrap;
     height: 680px;
     overflow: hidden;
+    row-gap: 20px;
 }
 div.cnt02 section article{
     width: calc(50% - 20px);
@@ -348,6 +348,11 @@ div.cnt03 header button:hover{
 /*오른쪽리스트*/
 div.cnt03 section{
     width: calc(100% / 12 * 8);
+}
+div.cnt03 section .sectWrap{
+    width: calc((100vw - 1080px) / 2 + 100%);
+    overflow: hidden;
+    
 }
 div.cnt03 section .sectWrap .artGroup{
     width: calc((250px + 10px) * 7);

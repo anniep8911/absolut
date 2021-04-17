@@ -37,3 +37,16 @@ div.ftrWrap{
 div.cnt02{
     display: none;
 }
+div.lightBox{
+    background-color: rgba(255,255,255,0.9);
+}
+div.lightBox .cnt01{
+    width: 320px;
+    height: 180px;
+}
+div.lightBox .cnt01 video{
+    height: 180px;
+}
+div.lightBox .cnt01 button{
+    display: none;
+}

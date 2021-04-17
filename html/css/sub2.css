@@ -102,7 +102,7 @@ div.cnt01 section article .btn{
 }
 div.cnt01 section article .btn button{
     height: 90px; width: 90px; border-radius: 50%;
-    font-size: 40px; line-height: 90px;
+    font-size: 40px; line-height: 90px; 
     margin: 0 10px;
     background-color: rgba(255,204,153,0.8);
 }
@@ -171,4 +171,34 @@ div.cnt02 section article .texts h4{
 div.cnt02 section article .texts p{
     height: 80px;
     overflow: hidden;
+}
+
+div.lightBox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.7);
+    opacity: 0;
+}
+div.lightBox .cnt01{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;right: 0;bottom: 0;
+    width: 850px;
+    height: 500px;
+}
+div.lightBox .cnt01 video{
+    height: 500px;
+}
+div.lightBox .cnt01 button{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:0;right:0;
 }

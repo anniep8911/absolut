@@ -17,49 +17,30 @@ div.hdrWrap header ul li:last-of-type{
 
 /*헤더 사이드바*/
 div.bars{
-  /*  width: 100vw;
-    height: 100vh;*/
-    position: absolute;
-    top: 0; left: 0;
-    overflow: hidden;
-}
-#bars{
-    display: none;
-}
-div.slide{
-    width: 0%;
-    height: 100vh;
-    background-color: rgba(255, 235, 213, 0.8);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    width:0%;
+    height: 100%;
     position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 999999;
-    transition: all 0.5s;
-}
-div.slide ul{
-    right: -1000px;
-    position: absolute;
-    padding: 20px;
-    text-align: center;
-    color: #111;
+    top: 0;right: 0;
+    background-color: rgba(255,255,255,0.7);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
     opacity: 0;
-    width: 0;
 }
-div.slide ul li{
-    font-size: 25px;
-    line-height: 80px;
-    font-weight: 500;
+div.bars ul{
+    text-align: center;
 }
-div.slide ul li:first-of-type{
-    margin-top: 80px;
+div.bars ul li{
+    font-size: 20px;
+    line-height: 40px;
+    color: #333;
 }
-div.slide ul li:last-of-type{
+div.bars ul li:last-of-type{
     position: absolute;
-    top: 20px; right: 10%;
-    font-size: 40px;
+    top: 20px;
+    right: 20px;
 }
 
 /*사이드바 액션*/

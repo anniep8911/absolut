@@ -11,3 +11,7 @@ div.cnt02 section{
     justify-content: space-around;
     grid-row-gap: 20px;
 }
+
+div.lightBox{
+    background-color: rgba(255,255,255,0.9);
+}

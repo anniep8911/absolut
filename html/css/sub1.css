@@ -14,7 +14,7 @@ div.cnt01 header .btnGroup{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 div.cnt01 header .btnGroup button{
     width: calc(100% / 6 - 20px);
@@ -90,6 +90,17 @@ div.cnt01 section article .texts h5{
     font-style: italic;
     font-family: "Kaushan Script";
     font-weight: 700;
+}
+div.cnt01 section article .texts h6{
+    font-size: 25px;
+    color: #ccc;
+    cursor: pointer;
+}
+div.cnt01 section article .texts h6 span.ch{
+    color: #000;
+}
+div.cnt01 section article .texts h6 span.fix{
+    color: #000;
 }
 div.cnt01 section article .btn{
     position: absolute;

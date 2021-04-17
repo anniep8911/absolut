@@ -9,12 +9,28 @@ div.cnt01 section .artGroup article{
 div.bnrWrap .banner .inputs input{
     width: 50%;
 }
-div.bnr02 .banner .inputs input:nth-of-type(1), input:nth-of-type(2){
-    display: none;
+div.bnrWrap.bnr02{
+	display: none;
 }
 
 div.cntWrap .cnt01 ul li{
     display: none;
+}
+div.cnt02 .btn{
+	display:none;
+}
+div.cnt02 section{
+	width:200%;
+	flex-wrap: nowrap;
+}
+div.cnt02 section article{
+	margin: 0 10px;
+}
+div.cnt02 section article .texts{
+	height: 150px;
+}
+div.cnt02 section article .texts .btn{
+	display: none;
 }
 div.cntWrap .cnt03{
     display: block;
@@ -30,4 +46,10 @@ div.cntWrap .content.cnt03 header p{
 }
 div.cntWrap .content.cnt03 section{
     margin-top: 40px;
+}
+div.cnt03 section .sectWrap{
+    overflow: visible;
+}
+div.cnt03 header button{
+	display: none;
 }

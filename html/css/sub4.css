@@ -222,6 +222,8 @@ div.cnt02 section{
     flex-wrap: wrap;
     grid-row-gap: 40px;
     margin-top: 40px;
+    height: 880px;
+    overflow: hidden;
 }
 div.cnt02 section article{
     width: calc(100% / 3 - 20px);
@@ -294,6 +296,9 @@ div.cnt03 section{
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    height: 400px;
+    overflow: hidden;
 }
 div.cnt03 section article{
     width: calc(100% / 3 - 20px);
