@@ -1,0 +1,79 @@
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+div.hdrWrap header{
+    height: 120px;
+}
+div.hdrWrap header ul li{
+    display: none;
+}
+div.hdrWrap header ul li:last-of-type{
+    display: block;
+    font-size: 36px;
+    line-height: 80px;
+    margin-left: auto;
+}
+
+/*헤더 사이드바*/
+div.bars{
+    width:0%;
+    height: 100%;
+    position: fixed;
+    top: 0;right: 0;
+    background-color: rgba(255,255,255,0.7);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    opacity: 0;
+}
+div.bars ul{
+    text-align: center;
+}
+div.bars ul li{
+    font-size: 20px;
+    line-height: 40px;
+    color: #333;
+}
+div.bars ul li:last-of-type{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*사이드바 액션*/
+#bars:checked+.slide{
+    width: 50%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+#bars:checked+.slide ul{
+    opacity: 1;
+    width: 100%;
+    display:block;
+    right: 0px;
+}
+
+
+
+div.mnWrap{
+    height: 500px;
+}
+
+div.mnWrap main .texts{
+    display: none;
+}
+
+div.cntWrap .content{
+    padding: 40px 0 0 0;
+}
+
+div.ftrWrap{
+    margin-top: 40px;
+}
+
+div.bnrWrap{
+    margin-top: 40px;
+}

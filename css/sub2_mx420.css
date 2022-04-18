@@ -1,0 +1,52 @@
+div.cnt01 header{
+    padding: 20px 0;
+}
+div.cnt01 section article {
+    margin: 0 auto;
+}
+
+div.cnt01 section article .btn {
+    opacity: 1;
+    transform: translate(0, 0);
+    position: static;
+}
+
+div.cnt01 section article .btn button {
+   display: none;
+}
+div.bnrWrap{
+    padding: 40px 0;
+}
+
+div.bnrWrap .banner .inputs input{
+    width: 50%;
+}
+div.bnrWrap .banner h3{
+    font-size: 20px;
+}
+div.cntWrap .content{
+    padding: 0;
+}
+div.cntWrap .content header h4{
+    margin-top: 20px;
+    font-size: 20px;
+}
+div.ftrWrap{
+    margin-top: 0;
+}
+div.cnt02{
+    display: none;
+}
+div.lightBox{
+    background-color: rgba(255,255,255,0.9);
+}
+div.lightBox .cnt01{
+    width: 320px;
+    height: 180px;
+}
+div.lightBox .cnt01 video{
+    height: 180px;
+}
+div.lightBox .cnt01 button{
+    display: none;
+}
