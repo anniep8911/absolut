@@ -8,18 +8,34 @@ $(function(){
                 $btnL= $cnt01.find('ul .btnL'),
                 $img= $cnt01.find('.artWrap'),
                 $imgG= $img.find('.artGroup'),
-                $btnMore=$('.cnt02 .btn button'),
+                $btnMore=$('.cnt02 .btn button:last'),
                 $cnt02Sect=$('.cnt02 section'),
                 $cnt03artG = $('.cnt03 .artGroup'),
                 $cnt03Btn = $('.cnt03 header button');
             
             $mnBtn.click(function(){
                 i = $(this).index();
-                $imgs.animate({marginLeft : -100*i+'vw'})
+                $imgs.find('.mnImg').removeClass('on');
+                $imgs.find('.mnImg').eq(i).addClass('on');
                 $mnBtn.removeClass('clicked');
                 $(this).addClass('clicked');
                 $mn.find('.texts .num h4').text('0'+(i+1));
+                clearInterval(auR);
             });
+
+            function auto(){
+                i++;
+                i=i%3;
+                $imgs.find('.mnImg').removeClass('on');
+                $imgs.find('.mnImg').eq(i).addClass('on');
+                $mnBtn.removeClass('clicked');
+                $mnBtn.eq(i).addClass('clicked');
+                $mn.find('.texts .num h4').text('0'+(i+1));
+            }
+
+            var auR = setInterval(auto,3000);
+
+
 
             $cnt03Btn.click(function(){
                 $cnt03artG.animate({marginLeft:'-260px'},1000,function(){

@@ -15,8 +15,8 @@ div.mnWrap main{
     height: 100%;
 }
 div.mnWrap main .mnGroup {
-    width: 300vw;
-    display: flex;
+    width: 100%;
+    position: relative;
     height: 100%;
 }
 div.mnWrap main .mnGroup .mnImg{
@@ -26,13 +26,15 @@ div.mnWrap main .mnGroup .mnImg{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    position: absolute;
+    top: 0;left: 0;
+    opacity: 0;
+    transition: opacity 1s;
 }
-div.mnWrap main .mnGroup .mnImg.i1{background-image: url(../image/index_mn_img1.jpg);
-    animation-name: roll;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
+div.mnWrap main .mnGroup .mnImg.on{
+    opacity: 1;
 }
+div.mnWrap main .mnGroup .mnImg.i1{background-image: url(../image/index_mn_img1.jpg);}
 div.mnWrap main .mnGroup .mnImg.i2{background-image: url(../image/index_mn_img2.jpg);}
 div.mnWrap main .mnGroup .mnImg.i3{background-image: url(../image/index_mn_img3.jpg);}
 

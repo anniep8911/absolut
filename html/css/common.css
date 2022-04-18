@@ -98,9 +98,6 @@ div.hdrWrap header ul li{
     font-size: 22px;
     font-weight: 500;
 }
-div.hdrWrap header ul li:last-of-type{
-    display: none;
-}
 
 
 div.bars{
