@@ -2,8 +2,8 @@ $(function(){
     var wd = $('html').width();
     var hdrWrap =  $('.hdrWrap');
     var ftrWrap = $('.ftrWrap');
-    hdrWrap.load('../inc/head.html',function(){});
-    ftrWrap.load('../inc/foot.html',function(){});
+    hdrWrap.load('./inc/head.html',function(){});
+    ftrWrap.load('./inc/foot.html',function(){});
 
     if(wd >= 780){
         $('head').append('<script src=\'js/index.js\'><\/script>');
