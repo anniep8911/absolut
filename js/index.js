@@ -1,4 +1,4 @@
-$(function(){
+
             var $mn = $('.mnWrap'),
                 $imgs = $mn.find('.mnGroup'),
                 $mnBtn = $mn.find('.pagenation li'),
@@ -76,4 +76,3 @@ $(function(){
                     $imgG.find('article:last').prependTo($imgG);
                 });
             });  
-            });

@@ -1,4 +1,4 @@
-$(function(){
+
 	var $cnt01 = $('.cnt01'),
 		$imgG = $cnt01.find('.artGroup'),
 		wid = $('html').width(),
@@ -186,4 +186,3 @@ $(function(){
 			}
 		}
 		
-});

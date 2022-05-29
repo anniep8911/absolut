@@ -360,10 +360,10 @@ div.ftr2{
     font-size: 20px;
 }
 
-section>h3{
+section>h3, article>h3{
     display:none;
 }
 
-.image, .imgBottle, .mnImg, .bg, .mnWrap{
+.image, .imgBottle, .mnImg, .bg, .mnWrap, article>a{
     color: transparent;
 }
