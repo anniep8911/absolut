@@ -12,82 +12,6 @@
     <link rel="stylesheet" href="css/sub4_mx780.css" media="(max-width : 780px)">
     <link rel="stylesheet" href="css/common_mx420.css" media="(max-width : 420px)">
     <link rel="stylesheet" href="css/sub4_mx420.css" media="(max-width : 420px)">
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="./js/common.js"></script>
-    <script>
-        $(function(){
-            var $cnt03vwMore =$('.cnt03 button'),
-                $cnt02vwMore =$('.cnt02 button'),
-                $cnt02 = $('.cnt02 section'),
-                $cnt03 = $('.cnt03 section'),
-                wid = $('html').width(),
-                i=0;
-            
-            if(wid<=420){
-                $cnt02vwMore.on('click',function(){
-                h = parseInt($cnt02.css('height'));
-                i++;
-                if(h > 1100){
-                    $cnt02.animate({height:'280px'},1000,function(){
-                        $cnt02vwMore.text('더보기');
-                        i=0;
-                    });
-                }else{
-                    $cnt02.animate({height:(i+1)*280+'px'},1000,function(){
-                        if(i == 3){   
-                        $cnt02vwMore.text('닫기');
-                        }else{
-                        $cnt02vwMore.text('더보기');
-                        }
-                    });
-                }
-                
-            });
-            $cnt03vwMore.on('click',function(){
-                h = parseInt($cnt03.css('height'));
-                if(h > 500){
-                    $cnt03.animate({height:'400px'},1000,function(){
-                        $cnt03vwMore.text('더보기');
-                    });
-                }else{
-                    $cnt03.animate({height:'800px'},1000,function(){
-                        $cnt03vwMore.text('닫기');
-                    });
-                }
-                
-            });
-            }else{
-               
-                   $cnt03vwMore.on('click',function(){
-                h = parseInt($cnt03.css('height'));
-                if(h > 500){
-                    $cnt03.animate({height:'400px'},1000,function(){
-                        $cnt03vwMore.text('더보기');
-                    });
-                }else{
-                    $cnt03.animate({height:'800px'},1000,function(){
-                        $cnt03vwMore.text('닫기');
-                    });
-                }
-                
-            });
-            $cnt02vwMore.on('click',function(){
-                h = parseInt($cnt02.css('height'));
-                if(h > 900){
-                    $cnt02.animate({height:'880px'},1000,function(){
-                        $cnt02vwMore.text('더보기');
-                    });
-                }else{
-                    $cnt02.animate({height:'1760px'},1000,function(){
-                        $cnt02vwMore.text('닫기');
-                    });
-                }
-                
-            });
-            
-            }
-        });
-    </script>
 </head>
 
 <body>
@@ -326,6 +250,82 @@
 
     <!--푸터-->
    <div class="ftrWrap"></div>
+
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="./js/common.js"></script>
+   <script>
+           var $cnt03vwMore =$('.cnt03 button'),
+               $cnt02vwMore =$('.cnt02 button'),
+               $cnt02 = $('.cnt02 section'),
+               $cnt03 = $('.cnt03 section'),
+               wid = $('html').width(),
+               i=0;
+           
+           if(wid<=420){
+               $cnt02vwMore.on('click',function(){
+               h = parseInt($cnt02.css('height'));
+               i++;
+               if(h > 1100){
+                   $cnt02.animate({height:'280px'},1000,function(){
+                       $cnt02vwMore.text('더보기');
+                       i=0;
+                   });
+               }else{
+                   $cnt02.animate({height:(i+1)*280+'px'},1000,function(){
+                       if(i == 3){   
+                       $cnt02vwMore.text('닫기');
+                       }else{
+                       $cnt02vwMore.text('더보기');
+                       }
+                   });
+               }
+               
+           });
+           $cnt03vwMore.on('click',function(){
+               h = parseInt($cnt03.css('height'));
+               if(h > 500){
+                   $cnt03.animate({height:'400px'},1000,function(){
+                       $cnt03vwMore.text('더보기');
+                   });
+               }else{
+                   $cnt03.animate({height:'800px'},1000,function(){
+                       $cnt03vwMore.text('닫기');
+                   });
+               }
+               
+           });
+           }else{
+              
+                  $cnt03vwMore.on('click',function(){
+               h = parseInt($cnt03.css('height'));
+               if(h > 500){
+                   $cnt03.animate({height:'400px'},1000,function(){
+                       $cnt03vwMore.text('더보기');
+                   });
+               }else{
+                   $cnt03.animate({height:'800px'},1000,function(){
+                       $cnt03vwMore.text('닫기');
+                   });
+               }
+               
+           });
+           $cnt02vwMore.on('click',function(){
+               h = parseInt($cnt02.css('height'));
+               if(h > 900){
+                   $cnt02.animate({height:'880px'},1000,function(){
+                       $cnt02vwMore.text('더보기');
+                   });
+               }else{
+                   $cnt02.animate({height:'1760px'},1000,function(){
+                       $cnt02vwMore.text('닫기');
+                   });
+               }
+               
+           });
+           
+           }
+       
+   </script>
 </body>
 
 </html>

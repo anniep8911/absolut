@@ -361,7 +361,9 @@ div.ftr2{
 }
 
 section>h3{
-
     display:none;
+}
 
+.image, .imgBottle, .mnImg, .bg, .mnWrap{
+    color: transparent;
 }
